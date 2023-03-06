@@ -36,6 +36,7 @@
     {"id":{"name":"sprite_player_temp","path":"sprites/sprite_player_temp/sprite_player_temp.yy",},"order":0,},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},"order":0,},
     {"id":{"name":"obj_ghost1","path":"objects/obj_ghost1/obj_ghost1.yy",},"order":0,},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":0,},
     {"id":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},"order":0,},
     {"id":{"name":"ts_default","path":"tilesets/ts_default/ts_default.yy",},"order":0,},
     {"id":{"name":"sprite_ts_mask","path":"sprites/sprite_ts_mask/sprite_ts_mask.yy",},"order":0,},

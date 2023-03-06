@@ -2,7 +2,12 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_ghost1",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -32,6 +37,9 @@
     "name": "sprite_ghost1_temp",
     "path": "sprites/sprite_ghost1_temp/sprite_ghost1_temp.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sprite_entity_mask",
+    "path": "sprites/sprite_entity_mask/sprite_entity_mask.yy",
+  },
   "visible": true,
 }
