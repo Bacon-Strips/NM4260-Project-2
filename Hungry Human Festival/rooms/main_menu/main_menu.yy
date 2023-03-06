@@ -1,7 +1,7 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room2",
+  "name": "main_menu",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,

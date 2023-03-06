@@ -3,7 +3,7 @@
 var dx = move_speed * (keyboard_check(vk_right) - keyboard_check(vk_left));
 var dy = move_speed * (keyboard_check(vk_down) - keyboard_check(vk_up));
 
-
+invincibility_time -= 1;
 
 y += dy;
 if (dy > 0) {

@@ -17,12 +17,14 @@
   ],
   "ResourceOrderSettings": [
     {"name":"ts_mask","order":1,"path":"tilesets/ts_mask/ts_mask.yy",},
+    {"name":"Sprite6","order":15,"path":"sprites/Sprite6/Sprite6.yy",},
+    {"name":"obj_ghost1","order":3,"path":"objects/obj_ghost1/obj_ghost1.yy",},
     {"name":"sprite_ts_mask","order":3,"path":"sprites/sprite_ts_mask/sprite_ts_mask.yy",},
     {"name":"sprite_ghost1_temp","order":2,"path":"sprites/sprite_ghost1_temp/sprite_ghost1_temp.yy",},
     {"name":"obj_level_logic","order":2,"path":"objects/obj_level_logic/obj_level_logic.yy",},
     {"name":"sprite_entity_mask","order":4,"path":"sprites/sprite_entity_mask/sprite_entity_mask.yy",},
     {"name":"sprite_ts_default_temp","order":1,"path":"sprites/sprite_ts_default_temp/sprite_ts_default_temp.yy",},
-    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"main_menu","order":1,"path":"rooms/main_menu/main_menu.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
   ],
 }
