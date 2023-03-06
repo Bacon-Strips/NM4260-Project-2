@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "PlayerSprite_Temp",
-  "bbox_bottom": 31,
+  "bbox_bottom": 63,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -15,9 +15,9 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c725d2bf-5d85-4a3f-9ce8-b0218daa1cee",},
   ],
-  "gridX": 0,
-  "gridY": 0,
-  "height": 32,
+  "gridX": 4,
+  "gridY": 4,
+  "height": 64,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fe6156f4-c13f-4064-9c6d-94f0f5846ea3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 64,
 }

@@ -32,10 +32,13 @@
     "IDEVersion": "2023.1.0.58",
   },
   "resources": [
+    {"id":{"name":"ts_mask","path":"tilesets/ts_mask/ts_mask.yy",},"order":0,},
     {"id":{"name":"PlayerSprite_Temp","path":"sprites/PlayerSprite_Temp/PlayerSprite_Temp.yy",},"order":0,},
     {"id":{"name":"Ghost","path":"objects/Ghost/Ghost.yy",},"order":0,},
     {"id":{"name":"TileSet","path":"tilesets/TileSet/TileSet.yy",},"order":0,},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":0,},
     {"id":{"name":"Ghost1_Temp","path":"sprites/Ghost1_Temp/Ghost1_Temp.yy",},"order":0,},
+    {"id":{"name":"obj_player_mask","path":"sprites/obj_player_mask/obj_player_mask.yy",},"order":0,},
     {"id":{"name":"TileSetSprite","path":"sprites/TileSetSprite/TileSetSprite.yy",},"order":0,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":0,},
     {"id":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},"order":0,},

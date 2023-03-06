@@ -16,7 +16,10 @@
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"ts_mask","order":1,"path":"tilesets/ts_mask/ts_mask.yy",},
+    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Ghost1_Temp","order":2,"path":"sprites/Ghost1_Temp/Ghost1_Temp.yy",},
+    {"name":"obj_player_mask","order":4,"path":"sprites/obj_player_mask/obj_player_mask.yy",},
     {"name":"TileSetSprite","order":1,"path":"sprites/TileSetSprite/TileSetSprite.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"PlayerObject","order":1,"path":"objects/PlayerObject/PlayerObject.yy",},
