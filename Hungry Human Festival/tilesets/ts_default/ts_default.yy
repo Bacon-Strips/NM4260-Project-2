@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet",
+  "name": "ts_default",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "TileSetSprite",
-    "path": "sprites/TileSetSprite/TileSetSprite.yy",
+    "name": "sprite_ts_default_temp",
+    "path": "sprites/sprite_ts_default_temp/sprite_ts_default_temp.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {

@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "Sprite4",
-    "path": "sprites/Sprite4/Sprite4.yy",
+    "name": "sprite_ts_mask",
+    "path": "sprites/sprite_ts_mask/sprite_ts_mask.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {

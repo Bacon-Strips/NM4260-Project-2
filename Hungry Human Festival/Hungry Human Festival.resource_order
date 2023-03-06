@@ -17,11 +17,12 @@
   ],
   "ResourceOrderSettings": [
     {"name":"ts_mask","order":1,"path":"tilesets/ts_mask/ts_mask.yy",},
-    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
-    {"name":"Ghost1_Temp","order":2,"path":"sprites/Ghost1_Temp/Ghost1_Temp.yy",},
-    {"name":"obj_player_mask","order":4,"path":"sprites/obj_player_mask/obj_player_mask.yy",},
-    {"name":"TileSetSprite","order":1,"path":"sprites/TileSetSprite/TileSetSprite.yy",},
+    {"name":"sprite_ts_mask","order":3,"path":"sprites/sprite_ts_mask/sprite_ts_mask.yy",},
+    {"name":"sprite_ghost1_temp","order":2,"path":"sprites/sprite_ghost1_temp/sprite_ghost1_temp.yy",},
+    {"name":"obj_level_logic","order":2,"path":"objects/obj_level_logic/obj_level_logic.yy",},
+    {"name":"sprite_entity_mask","order":4,"path":"sprites/sprite_entity_mask/sprite_entity_mask.yy",},
+    {"name":"sprite_ts_default_temp","order":1,"path":"sprites/sprite_ts_default_temp/sprite_ts_default_temp.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
-    {"name":"PlayerObject","order":1,"path":"objects/PlayerObject/PlayerObject.yy",},
+    {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
   ],
 }

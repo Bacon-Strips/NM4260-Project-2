@@ -1,10 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "PlayerObject",
+  "name": "obj_player",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -29,12 +30,12 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "PlayerSprite_Temp",
-    "path": "sprites/PlayerSprite_Temp/PlayerSprite_Temp.yy",
+    "name": "sprite_player_temp",
+    "path": "sprites/sprite_player_temp/sprite_player_temp.yy",
   },
   "spriteMaskId": {
-    "name": "obj_player_mask",
-    "path": "sprites/obj_player_mask/obj_player_mask.yy",
+    "name": "sprite_entity_mask",
+    "path": "sprites/sprite_entity_mask/sprite_entity_mask.yy",
   },
   "visible": true,
 }

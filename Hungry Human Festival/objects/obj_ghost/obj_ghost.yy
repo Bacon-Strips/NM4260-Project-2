@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Ghost",
+  "name": "obj_ghost",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Ghost1_Temp",
-    "path": "sprites/Ghost1_Temp/Ghost1_Temp.yy",
+    "name": "sprite_ghost1_temp",
+    "path": "sprites/sprite_ghost1_temp/sprite_ghost1_temp.yy",
   },
   "spriteMaskId": null,
   "visible": true,
