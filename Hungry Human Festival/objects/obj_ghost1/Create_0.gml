@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 path = path_add();
-move_speed = 5;
+move_speed = 3;
 obj_ghost1.alarm[0] = 1;
 stopped = 0;
 /*

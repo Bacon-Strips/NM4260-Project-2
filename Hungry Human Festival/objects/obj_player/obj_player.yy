@@ -7,6 +7,8 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -35,8 +37,8 @@
     "path": "sprites/sprite_player_temp/sprite_player_temp.yy",
   },
   "spriteMaskId": {
-    "name": "sprite_entity_mask",
-    "path": "sprites/sprite_entity_mask/sprite_entity_mask.yy",
+    "name": "sprite_player_mask",
+    "path": "sprites/sprite_player_mask/sprite_player_mask.yy",
   },
   "visible": true,
 }

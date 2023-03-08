@@ -39,6 +39,7 @@
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":0,},
     {"id":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},"order":0,},
     {"id":{"name":"ts_default","path":"tilesets/ts_default/ts_default.yy",},"order":0,},
+    {"id":{"name":"sprite_player_mask","path":"sprites/sprite_player_mask/sprite_player_mask.yy",},"order":0,},
     {"id":{"name":"sprite_ts_mask","path":"sprites/sprite_ts_mask/sprite_ts_mask.yy",},"order":0,},
     {"id":{"name":"font_player_lives","path":"fonts/font_player_lives/font_player_lives.yy",},"order":0,},
     {"id":{"name":"sprite_ghost1_temp","path":"sprites/sprite_ghost1_temp/sprite_ghost1_temp.yy",},"order":0,},

@@ -20,6 +20,7 @@
     {"name":"Sprite6","order":15,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"obj_ghost1","order":3,"path":"objects/obj_ghost1/obj_ghost1.yy",},
     {"name":"obj_control","order":4,"path":"objects/obj_control/obj_control.yy",},
+    {"name":"sprite_player_mask","order":5,"path":"sprites/sprite_player_mask/sprite_player_mask.yy",},
     {"name":"sprite_ts_mask","order":3,"path":"sprites/sprite_ts_mask/sprite_ts_mask.yy",},
     {"name":"sprite_ghost1_temp","order":2,"path":"sprites/sprite_ghost1_temp/sprite_ghost1_temp.yy",},
     {"name":"obj_level_logic","order":2,"path":"objects/obj_level_logic/obj_level_logic.yy",},
