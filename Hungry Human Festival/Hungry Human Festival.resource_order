@@ -24,6 +24,7 @@
     {"name":"Ui","order":24,"path":"folders/Sprites/Ui.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"game_over","order":2,"path":"rooms/game_over/game_over.yy",},
     {"name":"obj_rosary","order":3,"path":"objects/obj_rosary/obj_rosary.yy",},
     {"name":"ts_mask","order":1,"path":"tilesets/ts_mask/ts_mask.yy",},
     {"name":"sprite_player_temp","order":4,"path":"sprites/sprite_player_temp/sprite_player_temp.yy",},
@@ -35,6 +36,7 @@
     {"name":"obj_pickup","order":2,"path":"objects/obj_pickup/obj_pickup.yy",},
     {"name":"sprite_gatekeeper","order":1,"path":"sprites/sprite_gatekeeper/sprite_gatekeeper.yy",},
     {"name":"sprite_rosarybeads","order":2,"path":"sprites/sprite_rosarybeads/sprite_rosarybeads.yy",},
+    {"name":"obj_game_start","order":2,"path":"objects/obj_game_start/obj_game_start.yy",},
     {"name":"sprite_ghost2","order":5,"path":"sprites/sprite_ghost2/sprite_ghost2.yy",},
     {"name":"sprite_ghost1","order":2,"path":"sprites/sprite_ghost1/sprite_ghost1.yy",},
     {"name":"font_button","order":1,"path":"fonts/font_button/font_button.yy",},

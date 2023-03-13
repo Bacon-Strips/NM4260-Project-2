@@ -1,20 +1,20 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "main_menu",
+  "name": "game_over",
   "creationCodeFile": "",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_7716D453","path":"rooms/main_menu/main_menu.yy",},
-    {"name":"inst_4699BD8A","path":"rooms/main_menu/main_menu.yy",},
+    {"name":"inst_7716D453_1","path":"rooms/game_over/game_over.yy",},
+    {"name":"inst_4699BD8A_1","path":"rooms/game_over/game_over.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7716D453","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_closegame_button","path":"objects/obj_closegame_button/obj_closegame_button.yy",},"properties":[],"rotation":0.0,"scaleX":4.5,"scaleY":1.0,"x":320.0,"y":352.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4699BD8A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_game_start","path":"objects/obj_game_start/obj_game_start.yy",},"properties":[],"rotation":0.0,"scaleX":4.5,"scaleY":1.0,"x":320.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7716D453_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_closegame_button","path":"objects/obj_closegame_button/obj_closegame_button.yy",},"properties":[],"rotation":0.0,"scaleX":4.5,"scaleY":1.0,"x":320.0,"y":352.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4699BD8A_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_game_start","path":"objects/obj_game_start/obj_game_start.yy",},"properties":[],"rotation":0.0,"scaleX":4.5,"scaleY":1.0,"x":320.0,"y":192.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -38,7 +38,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":32,"hport":1344,"hspeed":-1,"hview":1344,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":2496,"wview":2496,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":1344,"hspeed":-1,"hview":1344,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":2496,"wview":2496,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -50,7 +50,7 @@
   "viewSettings": {
     "clearDisplayBuffer": true,
     "clearViewBackground": false,
-    "enableViews": true,
+    "enableViews": false,
     "inheritViewSettings": false,
   },
   "volume": 1.0,
