@@ -4,9 +4,9 @@
   "name": "obj_ghost1",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -34,12 +34,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprite_ghost1_temp",
-    "path": "sprites/sprite_ghost1_temp/sprite_ghost1_temp.yy",
+    "name": "sprite_ghost116",
+    "path": "sprites/sprite_ghost116/sprite_ghost116.yy",
   },
-  "spriteMaskId": {
-    "name": "sprite_entity_mask",
-    "path": "sprites/sprite_entity_mask/sprite_entity_mask.yy",
-  },
+  "spriteMaskId": null,
   "visible": true,
 }
