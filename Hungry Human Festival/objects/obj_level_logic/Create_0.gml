@@ -4,6 +4,7 @@
 player_lives = 3;
 game_over = false;
 holywater = 0;
+hellmoney = 0;
 
 randomize()
 

@@ -3,5 +3,8 @@
 
 player_lives -= 1;
 if (player_lives == 0) {
-	instance_destroy(obj_player);
+	obj_player.move_speed = 0;
+	obj_player.visible = false;
+	obj_player.alarm[0] = -1;
+	obj_player.alarm[2] = 1;
 }
