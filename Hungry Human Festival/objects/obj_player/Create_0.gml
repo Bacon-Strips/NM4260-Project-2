@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+surf = -1;
 default_speed = (2 * 60) / room_speed;
 move_speed = default_speed;
 

@@ -1,18 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_gatekeeppassive",
+  "name": "obj_menu_button",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"Return to menu",},
+  ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Ui",
+    "path": "folders/Objects/Ui.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_button_parent",
+    "path": "objects/obj_button_parent/obj_button_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprite_gatekeeper",
-    "path": "sprites/sprite_gatekeeper/sprite_gatekeeper.yy",
+    "name": "sprite_button_temp",
+    "path": "sprites/sprite_button_temp/sprite_button_temp.yy",
   },
   "spriteMaskId": null,
   "visible": true,
