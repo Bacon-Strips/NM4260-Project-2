@@ -5,6 +5,8 @@ player_lives = 3;
 game_over = false;
 holywater = 0;
 
+randomize()
+
 var cell_width = 64;
 var cell_height = 64;
 
