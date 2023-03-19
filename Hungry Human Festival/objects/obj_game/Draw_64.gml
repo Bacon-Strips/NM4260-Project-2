@@ -24,4 +24,9 @@ switch (room) {
 			"Congratulations! You have cleared the level!\n"
 			+ "This is the end of the current iteration, please look forward\n"
 			+ "to the next iteration of this video game project\n");
+		break;
+	case game_over:
+		var c = c_red;
+		draw_text_transformed_colour(room_width / 2, 100, "Game Over", 3, 3, 0, c, c, c, c, 1);
+		break;
 }
