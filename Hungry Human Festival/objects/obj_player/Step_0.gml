@@ -5,7 +5,8 @@ if (invincibility_time <= 0) move_speed = 2;
 var dx = move_speed * (keyboard_check(vk_right) - keyboard_check(vk_left));
 var dy = move_speed * (keyboard_check(vk_down) - keyboard_check(vk_up));
 
-invincibility_time -= 1;
+invincibility_time--;
+holy_effect--;
 
 if (fix_directionx <= 0) {
 	if (dy > 0) {

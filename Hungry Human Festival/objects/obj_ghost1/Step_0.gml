@@ -1,7 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 stunned--;
 stopped--;
+
+if (stunned > 0) {
+	return;	
+}
+
 if ((path_position = 1 && stopped <= 0) || stunned == 0) {
 	stopped = 60;
 	event_user(0)

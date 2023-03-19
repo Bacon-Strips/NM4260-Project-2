@@ -9,6 +9,9 @@ if (!surface_exists(surf)) {
 	with (obj_player) {
 		gpu_set_blendmode(bm_normal);
 		draw_sprite_ext(sprite_lighting, 0, x, y, 1, 1, 0, c_white, 0.5);
+		if (holy_effect > 0) {
+			draw_rectangle_color(0, 0, room_width, room_height, c_white, c_white, c_white, c_white, false);	
+		}
 	}
 	with (obj_hellmoney) {
 		if ((display <= 0 || brightness > 0)) {

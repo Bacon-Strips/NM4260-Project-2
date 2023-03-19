@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 path_end();
-stunned = 10 * room_speed;
+stunned = 5 * room_speed;
