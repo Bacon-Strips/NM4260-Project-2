@@ -6,5 +6,5 @@ event_inherited();
 
 activate_button = function() 
 {
-	room_goto(how_to_play_pg1);
+	room_goto(how_to_play_pg3);
 }
