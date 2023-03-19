@@ -5,7 +5,7 @@
 
 event_inherited();
 
-default_room_speed = (2 * 60) / room_speed
+default_room_speed = (1.6 * 60) / room_speed
 path = path_add();
 move_speed = default_room_speed;
 cell_width = 64;

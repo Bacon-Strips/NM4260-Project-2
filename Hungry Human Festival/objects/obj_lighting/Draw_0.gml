@@ -11,14 +11,14 @@ if (!surface_exists(surf)) {
 		draw_sprite_ext(sprite_lighting, 0, x, y, 1, 1, 0, c_white, 0.5);
 	}
 	with (obj_hellmoney) {
-		if (display <= 0 || brightness > 0) {
+		if ((display <= 0 || brightness > 0)) {
 			gpu_set_blendmode(bm_normal);
 			draw_sprite_ext(sprite_lighting, 0, x, y, brightness / 10, brightness / 10, 0, c_white, 0.5);
 			display = 300;
 			if (dimming) {
-				brightness -= 0.05;	
+				brightness -= 0.15;	
 			} else {
-				brightness += 0.05;	
+				brightness += 0.15;	
 			}
 			if (brightness == 1.5) {
 				dimming = true;	
