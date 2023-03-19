@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Game Clear
 // You can write your code in this editor
 
-room_goto(main_menu);
+room_goto(level_clear);

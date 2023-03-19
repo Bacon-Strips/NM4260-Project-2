@@ -19,4 +19,9 @@ switch (room) {
 			+ "Rosary beads: Your protection in hell. You lose one each time you get caught by a ghost.\n"
 			+ "It is game over if you run out of them.");
 		break;
+	case level_clear:
+		draw_text(room_width / 2, 600,
+			"Congratulations! You have cleared the level!\n"
+			+ "This is the end of the current iteration, please look forward\n"
+			+ "to the next iteration of this video game project\n");
 }

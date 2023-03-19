@@ -1,9 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var cell_width = 64;
-var cell_height = 64;
-
 var hcells = room_width div cell_width;
 var vcells = room_height div cell_height;
 
