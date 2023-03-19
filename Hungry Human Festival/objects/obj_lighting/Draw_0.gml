@@ -7,7 +7,7 @@ if (!surface_exists(surf)) {
 	surface_set_target(surf);
 	draw_clear(c_black);
 	with (obj_player) {
-		gpu_set_blendmode(bm_normal);
+		gpu_set_blendmode(bm_subtract);
 		draw_sprite_ext(sprite_lighting, 0, x, y, 1, 1, 0, c_white, 0.5);
 		if (holy_effect > 0) {
 			draw_rectangle_color(0, 0, room_width, room_height, c_white, c_white, c_white, c_white, false);	

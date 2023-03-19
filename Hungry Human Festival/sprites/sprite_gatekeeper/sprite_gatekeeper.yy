@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sprite_gatekeeper",
-  "bbox_bottom": 127,
+  "bbox_bottom": 129,
   "bbox_left": 0,
-  "bbox_right": 113,
+  "bbox_right": 115,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8305b574-32f3-484e-acea-d22465a10279",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e7e30186-f5e4-4e8c-a8b3-dae2c18ac75f",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 128,
+  "height": 130,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"30853b9b-de5c-4ec1-a8a5-ca887032cc1c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fc5dc394-7ac1-404a-8306-bcb82dd05abe","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Enemies.yy",
+    "name": "Tileset",
+    "path": "folders/Sprites/Tileset.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8305b574-32f3-484e-acea-d22465a10279","path":"sprites/sprite_gatekeeper/sprite_gatekeeper.yy",},},},"Disabled":false,"id":"ec7727b2-ed54-4990-b09f-73b75dcd7c35","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e7e30186-f5e4-4e8c-a8b3-dae2c18ac75f","path":"sprites/sprite_gatekeeper/sprite_gatekeeper.yy",},},},"Disabled":false,"id":"46b1837f-5b6c-4518-86cb-934170f1b7e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 114,
+  "width": 116,
 }
