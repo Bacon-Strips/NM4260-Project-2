@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-score = 0;
+to_level = 0;
+hellmoney_req = 4;
