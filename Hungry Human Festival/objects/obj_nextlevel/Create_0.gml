@@ -18,9 +18,12 @@ activate_button = function()
 		case 3:
 			room_goto(level_3);
 			break;
+		case 4:
+			room_goto(level_4);
+			break;
 	}
 }
 
-if (obj_game.to_level >= 3) {
+if (obj_game.to_level >= 4) {
 		instance_destroy();	
 }

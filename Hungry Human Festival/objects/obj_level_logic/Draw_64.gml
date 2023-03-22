@@ -8,7 +8,7 @@ draw_set_halign(fa_left);
 draw_set_alpha(1);
 draw_text(25, 100, "Life: " + "\n" 
 		+ "Holy water: \n"
-		+ "Hell money needed: " + string(obj_gatekeeppassive.gate_fee - hellmoney));
+		+ "Hell money needed: " + string(max(0, obj_gatekeeppassive.gate_fee - hellmoney)));
 for (var i = 0; i < player_lives; i++) {
 	draw_sprite(sprite_rosarybeads, 0, 125 + 32 * i, 50);	
 }
