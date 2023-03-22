@@ -8,6 +8,8 @@ if (stunned > 0) {
 	return;	
 }
 
+image_alpha = 1;
+
 if ((path_position = 1 && stopped <= 0) || stunned == 0) {
 	stopped = 60;
 	event_user(0)

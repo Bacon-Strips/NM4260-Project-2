@@ -4,5 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-default_room_speed = (2.2 * 60) / room_speed;
-move_speed = default_room_speed;
+if (reroute <= 0) {
+	event_user(2);
+	reroute = 180;
+}
