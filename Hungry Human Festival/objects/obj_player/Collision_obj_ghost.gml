@@ -6,5 +6,5 @@ if (invincibility_time <= 0 && !dead && other.stunned <= 0) {
 	obj_player.alarm[0] = 1;
 	obj_level_logic.alarm[0] = 1;
 	invincibility_time = room_speed * 5;
-	move_speed *= 2;
+	move_speed *= 1.5;
 }
