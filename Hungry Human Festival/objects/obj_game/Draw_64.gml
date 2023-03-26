@@ -39,6 +39,10 @@ switch (room) {
 			+ "You need to gather hell money to pay him to be able to leave\n\n");
 		draw_sprite_ext(sprite_gatekeeper, -1, room_width / 16, 275, 3, 3, 0, c_white, 1);
 		break;
+	case level_select:
+		var c = c_red;
+		draw_text_transformed_colour(room_width / 2, 100, "Level Select", 3, 3, 0, c, c, c, c, 1);
+		break;
 	case level_clear:
 		draw_text(room_width / 2, 600,
 			"Congratulations! You have cleared the level!\n"
