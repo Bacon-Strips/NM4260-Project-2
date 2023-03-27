@@ -96,14 +96,14 @@ switch (room) {
 				draw_set_halign(fa_left);
 				draw_sprite_ext(sprite_gravestone, 0, room_width / 16, room_height / 4, 3, 3, 0, c_white, 1);
 				draw_text(2 * room_width / 16, room_height / 4, 
-					"Gravestone. Harmless, but blocks your path when you get close.\n
+					"Gravestone. Harmless, but blocks your path when you get close.\n"
 					+ "Disappears after a while.");
 				break;
 			case 3:
 				draw_set_halign(fa_left);
 				draw_sprite_ext(sprite_bossghost, 0, room_width / 16, room_height / 4, 3, 3, 0, c_white, 1);
 				draw_text(2 * room_width / 16, room_height / 4,
-					"Boss ghost. Constantly chases you while passing through walls.\n 
+					"Boss ghost. Constantly chases you while passing through walls.\n" 
 					+ "Moves at similar speed as you");
 				break;
 		}
