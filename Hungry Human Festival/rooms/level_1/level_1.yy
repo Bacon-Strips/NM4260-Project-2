@@ -61,7 +61,7 @@
 0,1,0,1,0,0,1,0,1,0,-7,1,1,0,-8,1,7,0,1,0,1,0,0,1,-11,0,
 5,1,0,0,1,0,-3,-2147483648,1,0,-3,1,-2,0,-4,1,-2,0,4,1,0,1,1,-7,0,-2,
 1,-7,0,1,1,-5,0,4,1,0,0,1,-7,0,-2,1,-13,0,7,1,0,0,1,0,0,1,
--4,0,-3,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_mask","path":"tilesets/ts_mask/ts_mask.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+-4,0,-3,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_mask","path":"tilesets/ts_mask/ts_mask.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"Sprite23","path":"sprites/Sprite23/Sprite23.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":750,"y":450,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"maze_wall","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":36,"SerialiseWidth":52,"TileCompressedData":[
 -18,0,-2,10,-4,0,-2,10,-22,0,-4,-2147483648,-18,0,-2,10,-4,0,-2,14,-22,0,-4,-2147483648,-4,10,-4,0,-2,10,-2,0,-2,10,-4,0,-4,10,-6,0,-8,10,-12,0,-4,-2147483648,-4,14,-4,0,-2,10,
