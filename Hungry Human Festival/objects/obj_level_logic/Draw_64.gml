@@ -28,3 +28,9 @@ for (var i = 0; i < obj_gatekeeppassive.gate_fee; i++) {
 	}
 	
 }
+
+if (player_lives <= 1) {
+	draw_set_alpha(0.1);
+	draw_rectangle_colour(0, 0, port_width, port_height, c_red, c_red, c_red, c_red, false);
+	draw_set_alpha(1)
+}
