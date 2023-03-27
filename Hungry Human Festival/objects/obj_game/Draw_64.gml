@@ -72,6 +72,42 @@ switch (room) {
 			+ "You need to gather hell money to pay him to be able to leave\n\n");
 		draw_sprite_ext(sprite_gatekeeper, -1, room_width / 16, 275, 3, 3, 0, c_white, 1);
 		break;
+	case level_transition:
+		var c = c_red;
+		draw_text_transformed_colour(room_width / 2, 100, "Level " + string(to_level + 1), 3, 3, 0, c, c, c, c, 1);
+		switch (to_level) {
+			case 0:
+				draw_sprite_ext(sprite_ghost1, 0, room_width / 16, room_height / 4, 3, 3, 0, c_white, 1);
+				draw_set_halign(fa_left);
+				draw_text(2 * room_width / 16, room_height / 4,
+					"Basic ghost. Moves slower than you.\n"
+					+ "Will start chasing if you are nearby and directly above, below or to her sides.");
+				break;
+			case 1:
+				draw_set_halign(fa_left);
+				draw_sprite_ext(sprite_ghost2, 0, room_width / 16, room_height / 4, 3, 3, 0, c_white, 1);
+				draw_text(2 * room_width / 16, room_height / 4,
+					"Medium ghost. Same behavior as basic ghost, but faster than you");
+				draw_sprite_ext(sprite_ghost3, 0, room_width / 16, 2 * room_height / 4, 3, 3, 0, c_white, 1);
+				draw_text(2 * room_width / 16, 2 * room_height / 4,
+					"Big ghost. A lot slower than you, but she's always chasing. Silent too.");
+				break;
+			case 2:
+				draw_set_halign(fa_left);
+				draw_sprite_ext(sprite_gravestone, 0, room_width / 16, room_height / 4, 3, 3, 0, c_white, 1);
+				draw_text(2 * room_width / 16, room_height / 4, 
+					"Gravestone. Harmless, but blocks your path when you get close.\n
+					+ "Disappears after a while.");
+				break;
+			case 3:
+				draw_set_halign(fa_left);
+				draw_sprite_ext(sprite_bossghost, 0, room_width / 16, room_height / 4, 3, 3, 0, c_white, 1);
+				draw_text(2 * room_width / 16, room_height / 4,
+					"Boss ghost. Constantly chases you while passing through walls.\n 
+					+ "Moves at similar speed as you");
+				break;
+		}
+		break;
 	case level_select:
 		var c = c_red;
 		draw_text_transformed_colour(room_width / 2, 100, "Level Select", 3, 3, 0, c, c, c, c, 1);
