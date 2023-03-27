@@ -3,6 +3,7 @@
 
 stunned--;
 stopped--;
+chasetime--;
 
 if (stunned > 0) {
 	return;	
@@ -19,6 +20,9 @@ var dist_to_player = distance_to_object(obj_player) / cell_width;
 
 if (dist_to_player <= detection_range && 
 		((abs(obj_player.x - x) <= cell_width) || (abs(obj_player.y - y) <= cell_height))) {
+	if (!chasing && chasetime <= 0) audio_play_sound(sound_ghostdiscovered, 1, false);
+	chasing = true;
+	chasetime = 3 * room_speed;
 	event_user(2);
 }
 

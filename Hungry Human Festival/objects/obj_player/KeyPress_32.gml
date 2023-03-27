@@ -2,6 +2,7 @@
 // You can write your code in this editor
 with (obj_level_logic) {
 	if (obj_level_logic.holywater > 0) {
+		audio_play_sound(sound_holywateruse, 1, false);
 		holywater -= 1;
 		obj_player.holy_effect = 5;
 		with (obj_ghost) {

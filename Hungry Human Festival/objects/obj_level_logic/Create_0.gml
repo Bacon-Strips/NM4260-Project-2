@@ -24,6 +24,12 @@ global.grid = mp_grid_create(0, 0, hcells, vcells, cell_width, cell_height);
 port_width = camera_get_view_width(view_camera[0]) * 3
 port_height = camera_get_view_height(view_camera[0]) * 3
 
+if (obj_game.to_level != 4) {
+audio_play_sound(sound_levelbgm, 10, true);
+} else {
+	audio_play_sound(sound_bossbgm, 10, true);
+}
+
 for (var i = 0; i < hcells; i++) {
 	for (var j = 0; j < vcells; j++) {
 		var t = tilemap_get_at_pixel(tilemap, i * 64, j * 64) & tile_index_mask;

@@ -3,6 +3,7 @@
 
 if (invincibility_time <= 0 && !dead && other.stunned <= 0) {
 	effect_create_above(ef_explosion, x, y, 1, c_red);
+	audio_play_sound(sound_hit, 1, false);
 	obj_player.alarm[0] = 1;
 	obj_level_logic.alarm[0] = 1;
 	invincibility_time = room_speed * 5;

@@ -11,5 +11,7 @@ move_speed = default_room_speed;
 cell_width = 64;
 cell_height = 64;
 detection_range = 5;
+chasing = false;
 event_user(0);
 stopped = 0;
+chasetime= 0;
