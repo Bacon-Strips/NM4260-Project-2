@@ -7,14 +7,47 @@ switch (room) {
 		draw_text_transformed_colour(room_width / 2, 100, "Hungry Human Festival", 3, 3, 0, c, c, c, c, 1);
 		break;
 	case how_to_play_pg1:
-		draw_text(room_width / 2, 600, 
+		draw_set_font(font_instructions_header);
+		draw_text(room_width / 2, 100, 
 			"You are a NSF lost in hell. Help him find the\n" 
-			+ "required hell money to pay the gatekeeper to go home!\n\n"
+			+ "required hell money to pay the gatekeeper to go home!\n");
+		draw_text(room_width / 2, 250,
+			"Movement:");
+		draw_sprite_ext(sprite_arrowkey, 0, room_width / 5, 350, 1, 1, 270, c_white, 1);
+		draw_sprite_ext(sprite_arrowkey, 0, 2 * room_width / 5, 350, 1, 1, 180, c_white, 1);
+		draw_sprite_ext(sprite_arrowkey, 0, 3 * room_width / 5, 350, 1, 1, 90, c_white, 1);
+		draw_sprite_ext(sprite_arrowkey, 0, 4 * room_width / 5, 350, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(sprite_player_side, 0, 5 * room_width / 20, 350, -2, 2, 0, c_white, 1);
+		draw_sprite_ext(sprite_player_back, 0, 9 * room_width / 20, 350, 2, 2, 0, c_white, 1);
+		draw_sprite_ext(sprite_player_side, 0, 13 * room_width / 20, 350, 2, 2, 0, c_white, 1);
+		draw_sprite_ext(sprite_player_front, 0, 17 * room_width / 20, 350, 2, 2, 0, c_white, 1);
+		
+		draw_text(room_width / 2, 450, 
+			"Items:");
+		draw_sprite_ext(sprite_holywater, -1, room_width / 16, 550, 2, 2, 0, c_white, 1);
+		draw_set_halign(fa_left);
+		draw_set_font(font_instructions);
+		draw_text(room_width / 16 + 100, 550,
+			"Holy water: Briefly stuns all ghosts (Hotkey:                   )");
+		draw_sprite_ext(sprite_spacekey, -1, room_width / 16 + 970, 550, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(sprite_rosarybeads, -1, room_width / 16, 700, 2, 2, 0, c_white, 1);
+		draw_text(room_width / 16 + 100, 700,
+			"Rosay beads: NSF's life points. 1 is lost each time he gets caught by a ghost.");
+		draw_sprite_ext(sprite_ghostmoney, -1, room_width / 16, 850, 2, 2, 0, c_white, 1);
+		draw_text(room_width / 16 + 100, 850,
+			"Hell money: Gather these and hand it to the gatekeeper to leave");
+		draw_set_halign(fa_center);
+		draw_sprite_ext(sprite_gatekeeper, 0, 13 * room_width / 16, 750, 4, 4, 0, c_white, 1);
+		draw_set_font(font_instructions_header);
+		draw_text(13 * room_width / 16, 1050, 
+			"The Gatekeeper");
+			/**
 			+ "UP: Move up\n"
 			+ "DOWN: Move down\n"
 			+ "LEFT: Move left\n"
 			+ "RIGHT: Move right\n"
 			+ "SPACE BAR: Use holy water\n\n");
+			*/
 		break;
 	case how_to_play_pg2:
 		draw_set_halign(fa_left);
