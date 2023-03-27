@@ -17,14 +17,14 @@ for (var i = 0; i < player_lives; i++) {
 }
 
 for (var i = 0; i < holywater; i++) {
-	draw_sprite_ext(sprite_holywater, 0, 635 + 32 * i, port_height / 35, 1.5, 1.5, 0, c_white, 1);	
+	draw_sprite_ext(sprite_holywater, 0, 600 + 32 * i, port_height / 35, 1, 1, 0, c_white, 1);	
 }
 
 for (var i = 0; i < obj_gatekeeppassive.gate_fee; i++) {
 	if (i < hellmoney) {
-		draw_sprite_ext(sprite_ghostmoney, 0, 1100 + 40 * i, port_height / 35, 1.5, 1.5, 0, c_white, 1);
+		draw_sprite_ext(sprite_ghostmoney, 0, 1050 + 32 * i, port_height / 35, 1, 1, 0, c_white, 1);
 	} else {
-		draw_sprite_ext(sprite_ghostmoneynottaken, 0, 1100 + 40 * i, port_height / 35, 1.5, 1.5, 0, c_white, 1);
+		draw_sprite_ext(sprite_ghostmoneynottaken, 0, 1050 + 32 * i, port_height / 35, 1, 1, 0, c_white, 1);
 	}
 	
 }

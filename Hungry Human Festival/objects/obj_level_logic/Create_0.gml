@@ -21,8 +21,8 @@ tilemap = layer_tilemap_get_id(l);
 
 global.grid = mp_grid_create(0, 0, hcells, vcells, cell_width, cell_height);
 
-port_width = camera_get_view_width(view_camera[0]) * 3
-port_height = camera_get_view_height(view_camera[0]) * 3
+port_width = camera_get_view_width(view_camera[0]) * 2
+port_height = camera_get_view_height(view_camera[0]) * 2
 
 if (obj_game.to_level != 4) {
 audio_play_sound(sound_levelbgm, 10, true);

@@ -92,6 +92,7 @@
     {"name":"sprite_ghost1_temp","order":3,"path":"sprites/sprite_ghost1_temp/sprite_ghost1_temp.yy",},
     {"name":"obj_game_startlevel1","order":12,"path":"objects/obj_game_startlevel1/obj_game_startlevel1.yy",},
     {"name":"obj_holywater","order":1,"path":"objects/obj_holywater/obj_holywater.yy",},
+    {"name":"font_title","order":4,"path":"fonts/font_title/font_title.yy",},
     {"name":"sprite_gatekeeper","order":6,"path":"sprites/sprite_gatekeeper/sprite_gatekeeper.yy",},
     {"name":"level_3","order":8,"path":"rooms/level_3/level_3.yy",},
     {"name":"main_menu","order":1,"path":"rooms/main_menu/main_menu.yy",},

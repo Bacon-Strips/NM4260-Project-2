@@ -121,6 +121,7 @@
     {"id":{"name":"sprite_entity_mask","path":"sprites/sprite_entity_mask/sprite_entity_mask.yy",},"order":0,},
     {"id":{"name":"obj_holywater","path":"objects/obj_holywater/obj_holywater.yy",},"order":0,},
     {"id":{"name":"sprite_ts_default_temp","path":"sprites/sprite_ts_default_temp/sprite_ts_default_temp.yy",},"order":0,},
+    {"id":{"name":"font_title","path":"fonts/font_title/font_title.yy",},"order":0,},
     {"id":{"name":"sprite_gatekeeper","path":"sprites/sprite_gatekeeper/sprite_gatekeeper.yy",},"order":0,},
     {"id":{"name":"level_3","path":"rooms/level_3/level_3.yy",},"order":0,},
     {"id":{"name":"main_menu","path":"rooms/main_menu/main_menu.yy",},"order":0,},

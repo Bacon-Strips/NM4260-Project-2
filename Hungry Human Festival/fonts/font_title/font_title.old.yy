@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "font_button",
+  "name": "font_title",
   "AntiAlias": 1,
   "applyKerning": 0,
   "ascender": 47,

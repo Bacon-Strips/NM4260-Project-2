@@ -3,5 +3,5 @@
 
 
 event_inherited();
-default_room_speed = 2;
+default_room_speed = 1.8;
 move_speed = default_room_speed;
