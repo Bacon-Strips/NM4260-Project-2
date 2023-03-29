@@ -18,9 +18,9 @@ switch (room) {
 			
 		var movement_row_y = 275;
 			
-		draw_sprite_ext(sprite_arrowkey, 0, room_width / 5, movement_row_y, 1, 1, 270, c_white, 1);
-		draw_sprite_ext(sprite_arrowkey, 0, 2 * room_width / 5, movement_row_y, 1, 1, 180, c_white, 1);
-		draw_sprite_ext(sprite_arrowkey, 0, 3 * room_width / 5, movement_row_y, 1, 1, 90, c_white, 1);
+		draw_sprite_ext(sprite_arrowkey, 1, room_width / 5, movement_row_y, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(sprite_arrowkey, 3, 2 * room_width / 5, movement_row_y, 1, 1, 0, c_white, 1);
+		draw_sprite_ext(sprite_arrowkey, 2, 3 * room_width / 5, movement_row_y, 1, 1, 0, c_white, 1);
 		draw_sprite_ext(sprite_arrowkey, 0, 4 * room_width / 5, movement_row_y, 1, 1, 0, c_white, 1);
 		draw_sprite_ext(sprite_player_side, 0, 5 * room_width / 20, movement_row_y, -2, 2, 0, c_white, 1);
 		draw_sprite_ext(sprite_player_back, 0, 9 * room_width / 20, movement_row_y, 2, 2, 0, c_white, 1);
@@ -34,7 +34,7 @@ switch (room) {
 		draw_set_font(font_instructions);
 		draw_text(room_width / 16 + 100, 425,
 			"Holy water: Briefly stuns all ghosts (Hotkey:                   )");
-		draw_sprite_ext(sprite_spacekey, -1, room_width / 16 + 813, 425, 0.75, 0.75, 0, c_white, 1);
+		draw_sprite_ext(sprite_spacekey, -1, room_width / 16 + 895, 425, 0.75, 0.75, 0, c_white, 1);
 		draw_sprite_ext(sprite_rosarybeads, -1, room_width / 16, 550, 2, 2, 0, c_white, 1);
 		draw_text(room_width / 16 + 100, 550,
 			"Rosay beads: NSF's life points. 1 is lost each time he gets caught by a ghost.");
