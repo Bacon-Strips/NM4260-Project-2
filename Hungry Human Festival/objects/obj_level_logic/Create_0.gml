@@ -8,6 +8,9 @@ hellmoney = 0;
 paused = false;
 paused_surf = -1;
 
+paused = false;
+paused_surf = -1;
+
 randomize()
 
 var cell_width = 64;
