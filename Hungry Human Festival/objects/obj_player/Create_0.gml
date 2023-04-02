@@ -10,6 +10,7 @@ invincibility_time = 0;
 fix_directionx = 0;
 fix_directiony = 0;
 dead = false;
+paused = false;
 
 sprite_bbox_left = sprite_get_bbox_left(sprite_index) - sprite_get_xoffset(sprite_index);
 sprite_bbox_right = sprite_get_bbox_right(sprite_index) - sprite_get_xoffset(sprite_index);

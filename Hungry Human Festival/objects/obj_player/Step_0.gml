@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (paused) {
+	return;	
+}
 if (invincibility_time <= 0) move_speed = 2;
 
 var dx = move_speed * (keyboard_check(vk_right) - keyboard_check(vk_left));

@@ -119,8 +119,8 @@ switch (room) {
 		draw_text_transformed_colour(room_width / 2, 100, "Level Select", 3, 3, 0, c, c, c, c, 1);
 		break;
 	case level_clear:
-		draw_text(room_width / 2, 600,
-			"Congratulations! You have cleared the level!\n"
+		draw_text(room_width / 2, 300,
+			"Congratulations! You have cleared the game!\n"
 			+ "This is the end of the current iteration, please look forward\n"
 			+ "to the next iteration of this video game project\n");
 		break;

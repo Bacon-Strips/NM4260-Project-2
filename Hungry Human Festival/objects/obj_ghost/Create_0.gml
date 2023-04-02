@@ -2,3 +2,4 @@
 // You can write your code in this editor
 
 stunned = 0;
+paused = false;

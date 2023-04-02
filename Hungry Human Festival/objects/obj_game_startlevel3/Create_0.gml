@@ -6,7 +6,7 @@ event_inherited();
 
 activate_button = function() 
 {
-	obj_game.to_level = 3;
-	obj_game.hellmoney_req = 6;
-	room_goto(level_3)
+	obj_game.to_level = 2;
+	obj_game.hellmoney_req = 5;
+	room_goto(level_transition)
 }
