@@ -8,7 +8,7 @@ if (!surface_exists(surf)) {
 	draw_clear(c_black);
 	with (obj_player) {
 		gpu_set_blendmode(bm_subtract);
-		draw_sprite_ext(sprite_lighting, 0, x, y, 1.5, 1.5, 0, c_white, 0.5);
+		draw_sprite_ext(sprite_lighting, 0, x, y, 1.25, 1.25, 0, c_white, 0.5);
 		if (holy_effect > 0) {
 			draw_rectangle_color(0, 0, room_width, room_height, c_white, c_white, c_white, c_white, false);	
 		}

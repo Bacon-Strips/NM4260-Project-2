@@ -37,7 +37,7 @@ switch (room) {
 		draw_sprite_ext(sprite_spacekey, -1, room_width / 16 + 895, 425, 0.75, 0.75, 0, c_white, 1);
 		draw_sprite_ext(sprite_rosarybeads, -1, room_width / 16, 550, 2, 2, 0, c_white, 1);
 		draw_text(room_width / 16 + 100, 550,
-			"Rosay beads: NSF's life points. 1 is lost each time he gets caught by a ghost.");
+			"Rosary beads: NSF's life points. 1 is lost each time he gets caught by a ghost.");
 		draw_sprite_ext(sprite_ghostmoney, -1, room_width / 16, 675, 2, 2, 0, c_white, 1);
 		draw_text(room_width / 16 + 100, 675,
 			"Hell money: Gather these and hand it to the gatekeeper to leave");
@@ -85,14 +85,16 @@ switch (room) {
 				draw_set_halign(fa_left);
 				draw_text(2 * room_width / 16, 3 * room_height / 8,
 					"Basic ghost. Moves slower than you.\n"
-					+ "Will start chasing if you are nearby and directly above, below or to her sides.\n"
-					+ "Break the chase by staying far and diagonal from their position");
+					+ "Will chase if you are nearby and directly above, below or to her sides.\n"
+					+ "Break the chase by running away or avoid staying in their direct vertical\n" 
+					+ "or horizontal from their position.");
 				break;
 			case 1:
 				draw_set_halign(fa_left);
 				draw_sprite_ext(sprite_ghost2, 0, room_width / 16, 3 * room_height / 8, 3, 3, 0, c_white, 1);
 				draw_text(2 * room_width / 16, 3 * room_height / 8,
-					"Medium ghost. Same behavior as basic ghost, but faster than you");
+					"Medium ghost. Same behavior as basic ghost, but faster than you.\n"
+					+ "There is a couple of seconds before it start chasing if it spots you.");
 				draw_sprite_ext(sprite_ghost3, 0, room_width / 16, 6 * room_height / 8, 3, 3, 0, c_white, 1);
 				draw_text(2 * room_width / 16, 6 * room_height / 8,
 					"Big ghost. A lot slower than you, but she's always chasing. Silent too.");

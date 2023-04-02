@@ -28,7 +28,7 @@ if (obj_player.dead) {
 
 if (dist_to_player <= detection_range && 
 		((abs(obj_player.x - x) <= cell_width) || (abs(obj_player.y - y) <= cell_height))) {
-	if (!chasing && chasetime <= 0) audio_play_sound(sound_ghostdiscovered, 1, false);
+	if (!chasing && chasetime <= 0) event_user(4);
 	chasing = true;
 	chasetime = 3 * room_speed;
 	event_user(2);

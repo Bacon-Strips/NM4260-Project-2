@@ -4,7 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
-default_room_speed = (1.2 * 60) / room_speed;
+default_room_speed = (10 * 60) / room_speed;
+nearby_speed = (1.4 * 60) / room_speed;
 move_speed = default_room_speed;
 chasing = true;
 
