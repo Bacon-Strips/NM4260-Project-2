@@ -35,8 +35,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprite_bossghost",
-    "path": "sprites/sprite_bossghost/sprite_bossghost.yy",
+    "name": "sprite_bossghost1",
+    "path": "sprites/sprite_bossghost1/sprite_bossghost1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
