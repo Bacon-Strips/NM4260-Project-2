@@ -105,13 +105,24 @@ switch (room) {
 				draw_text(2 * room_width / 16, 3 * room_height / 8, 
 					"Gravestone. Harmless, but blocks your path when you get close.\n"
 					+ "Disappears after a while.");
+				draw_sprite_ext(sprite_ghostyidle, 0, room_width / 16, 5 * room_height / 8, 2, 2, 0, c_white, 1);
+				draw_text(2 * room_width / 16, 5 * room_height / 8,
+					"The gatekeeper passed you a tailsman. Press shift to turn into a spirit\n"
+					+ "As a spirit, you can phase through walls while draining your meter\n"
+					+ "You will take damage when the meter is empty while you're a spirit");
 				break;
 			case 3:
 				draw_set_halign(fa_left);
-				draw_sprite_ext(sprite_bossghost, 0, room_width / 16, 3 * room_height / 8, 3, 3, 0, c_white, 1);
+				draw_sprite_ext(sprite_bossghost, 0, room_width / 16, 3 * room_height / 8, 2, 2, 0, c_white, 1);
 				draw_text(2 * room_width / 16, 3 * room_height / 8,
 					"Boss ghost. Constantly chases you while passing through walls.\n" 
-					+ "Moves at similar speed as you");
+					+ "Slightly slower than you but occasionally charges at high speed\n"
+					+ "Keep him close so you know when to dodge");
+				draw_sprite_ext(sprite_bossghostalt, 0, room_width / 16, 5 * room_height / 8, 2, 2, 0, c_white, 1);
+				draw_text(2 * room_width / 16, 5 * room_height / 8,
+					"Boss ghost's twin. Constantly chases you while passing through walls.\n" 
+					+ "A lot slower than you but occasionally casts fireballs\n"
+					+ "Stay away unless you have a face full of fireballs");
 				break;
 		}
 		draw_set_halign(fa_center);

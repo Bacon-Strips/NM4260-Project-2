@@ -32,6 +32,10 @@ if (!surface_exists(surf)) {
 			}
 		}
 	}
+	with (obj_fireball) {
+		gpu_set_blendmode(bm_normal);
+		draw_sprite_ext(sprite_lighting, 0, x, y, 0.3, 0.3, 0, c_white, 0.5);
+	}
 	gpu_set_blendmode(bm_normal);
 	surface_reset_target();
 	draw_surface_ext(surf, 0, 0, 1, 1, 0, c_white, darkness);

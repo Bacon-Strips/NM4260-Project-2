@@ -6,6 +6,8 @@ move_speed = default_speed;
 
 var l = layer_get_id("collision_map");
 tilemap = layer_tilemap_get_id(l);
+var k = layer_get_id("collision_map_1");
+tilemap2 = layer_tilemap_get_id(k);
 invincibility_time = 0;
 fix_directionx = 0;
 fix_directiony = 0;
