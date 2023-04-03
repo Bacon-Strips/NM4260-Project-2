@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (paused) {
-	return;	
-}
+// Inherit the parent event
+event_inherited();
 
-display--;
+move_speed = 0;
