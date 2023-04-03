@@ -8,5 +8,5 @@ activate_button = function()
 {
 	obj_game.to_level = 3;
 	obj_game.hellmoney_req = 6;
-	room_goto(level_transition)
+	room_goto(level_transition4)
 }
