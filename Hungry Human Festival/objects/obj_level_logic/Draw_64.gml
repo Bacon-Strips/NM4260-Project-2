@@ -34,3 +34,11 @@ if (player_lives <= 1) {
 	draw_rectangle_colour(0, 0, port_width, port_height, c_red, c_red, c_red, c_red, false);
 	draw_set_alpha(1)
 }
+
+if (paused) {
+	draw_sprite_ext(sprite_pausemenu, 0, port_width / 2, 21 * port_height / 40, 1.5, 5, 0, c_white, 1);
+	draw_set_halign(fa_center);
+	draw_set_font(font_instructions_header);
+	draw_text_transformed_color(port_width / 2, 5 * port_height / 20, 
+		"Paused", 2, 2, 0, c_red, c_red, c_red, c_red, 1);
+}
