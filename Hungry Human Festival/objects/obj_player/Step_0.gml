@@ -50,6 +50,8 @@ if (!ghosty) {
 	}
 }
 
+var isColliding = false;
+
 if (ghosty) {
 	ghosty_duration -= 20;
 	y += dy * 1.2;
@@ -59,11 +61,21 @@ if (ghosty) {
 		if (t1 != 0 || t2 != 0) {
 			y = ((bbox_bottom & ~63) - 1) - sprite_bbox_bottom;	
 		}
+		var t1 = tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) & tile_index_mask;
+		var t2 = tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) & tile_index_mask;
+		if (t1 != 0 || t2 != 0) {
+			isColliding = true;
+		}
 	} else {
 		var t3 = tilemap_get_at_pixel(tilemap2, bbox_left, bbox_top) & tile_index_mask;
 		var t4 = tilemap_get_at_pixel(tilemap2, bbox_right, bbox_top) & tile_index_mask;
 		if (t3 != 0 || t4 != 0) {
 			y = ((bbox_top + 64) & ~63) - sprite_bbox_top;
+		}
+		var t3 = tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) & tile_index_mask;
+		var t4 = tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) & tile_index_mask;
+		if (t3 != 0 || t4 != 0) {
+			isColliding = true;
 		}
 	}
 
@@ -74,15 +86,30 @@ if (ghosty) {
 		if (t2 != 0 || t4 != 0) {
 			x = ((bbox_right & ~63) - 1) - sprite_bbox_right;
 		}
+		var t2 = tilemap_get_at_pixel(tilemap, bbox_right, bbox_bottom) & tile_index_mask;
+		var t4 = tilemap_get_at_pixel(tilemap, bbox_right, bbox_top) & tile_index_mask;
+		if (t2 != 0 || t4 != 0) {
+			isColliding = true;
+		}
 	} else {
 		var t1 = tilemap_get_at_pixel(tilemap2, bbox_left, bbox_bottom) & tile_index_mask;
 		var t3 = tilemap_get_at_pixel(tilemap2, bbox_left, bbox_top) & tile_index_mask;
 		if (t1 != 0 || t3 != 0) {
 			x = ((bbox_left + 64) & ~63) - sprite_bbox_left;	
 		}
+		var t1 = tilemap_get_at_pixel(tilemap, bbox_left, bbox_bottom) & tile_index_mask;
+		var t3 = tilemap_get_at_pixel(tilemap, bbox_left, bbox_top) & tile_index_mask;
+		if (t1 != 0 || t3 != 0) {
+			isColliding = true;
+		}
 	}
 	if (ghosty_duration <= 0) {
-		event_user(0);
+		event_user(1);
+	}
+	if (isColliding) {
+		image_alpha = 0.5;
+	} else {
+		image_alpha = 1;	
 	}
 } else {
 	if (ghosty_buffer > 0) {
@@ -90,6 +117,10 @@ if (ghosty) {
 	} else {
 		ghosty_duration += 1.5;
 	}
+}
+
+if (ghosty && become_human) {
+	event_user(2);	
 }
 
 ghosty_duration = clamp(ghosty_duration, 0, max_ghostyduration);

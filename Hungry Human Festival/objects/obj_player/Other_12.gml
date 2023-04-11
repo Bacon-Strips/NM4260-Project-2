@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Logic when changing out of spirit form
 // You can write your code in this editor
 
 if (dead) {
@@ -25,4 +25,5 @@ if (ghosty) {
 if (prev_ghosty != ghosty) {
 	effect_create_above(ef_explosion,x,y,1,c_white);
 	ghosty_buffer = 3 * room_speed;
+	image_alpha = 1;
 }
