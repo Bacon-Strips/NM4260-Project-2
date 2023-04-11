@@ -11,6 +11,7 @@
     {"name":"inst_4699BD8A","path":"rooms/main_menu/main_menu.yy",},
     {"name":"inst_4526BDD6","path":"rooms/main_menu/main_menu.yy",},
     {"name":"inst_18A52BF8","path":"rooms/main_menu/main_menu.yy",},
+    {"name":"inst_BDE59DB","path":"rooms/main_menu/main_menu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,6 +20,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4699BD8A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_levelselect","path":"objects/obj_levelselect/obj_levelselect.yy",},"properties":[],"rotation":0.0,"scaleX":0.7,"scaleY":0.5,"x":832.0,"y":640.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4526BDD6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_helpbutton","path":"objects/obj_helpbutton/obj_helpbutton.yy",},"properties":[],"rotation":0.0,"scaleX":0.7,"scaleY":0.5,"x":832.0,"y":736.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_18A52BF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_game_start","path":"objects/obj_game_start/obj_game_start.yy",},"properties":[],"rotation":0.0,"scaleX":0.70000005,"scaleY":0.5,"x":832.0,"y":544.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BDE59DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_credit_button","path":"objects/obj_credit_button/obj_credit_button.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1312.0,"y":736.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"sprite_menu_screen","path":"sprites/sprite_menu_screen/sprite_menu_screen.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

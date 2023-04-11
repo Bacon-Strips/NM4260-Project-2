@@ -138,16 +138,26 @@ switch (room) {
 		draw_text_transformed_colour(room_width / 2, 100, "Level Select", 3, 3, 0, c, c, c, c, 1);
 		break;
 	case level_clear:
-		draw_text(room_width / 2, 300,
-			"Congratulations! You have cleared the game!\n"
-			+ "Thanks for playing\n"
+		draw_text(room_width / 2, 7 * room_height / 16,
+			"And so the NSF walked into the light, the final gate before his destination\n\n\n"
+			+ "Congratulations! You have cleared the game!\n"
+			+ "Thanks for playing\n\n\n"
 			+ "Developer: Peigeng (Bacon-Strips)\n"
 			+ "Artist: Jolin\n"
 			+ "Designer: Vanessa & Yining\n"
-			+ "QA Testor: Dominic");
+			+ "QA Tester: Dominic\n\n\n"
+			+ "Special thanks to Prof Alex Mitchell for the game design advices");
 		break;
 	case game_over:
 		var c = c_red;
 		draw_text_transformed_colour(room_width / 2, 100, "Game Over", 3, 3, 0, c, c, c, c, 1);
+		break;
+	case credits:
+		draw_text(room_width / 2, 8 * room_height / 16,
+			"Developer: Peigeng (Bacon-Strips)\n"
+			+ "Artist: Jolin\n"
+			+ "Designer: Vanessa & Yining\n"
+			+ "QA Tester: Dominic\n\n\n"
+			+ "Special thanks to Prof Alex Mitchell for the game design advices");
 		break;
 }

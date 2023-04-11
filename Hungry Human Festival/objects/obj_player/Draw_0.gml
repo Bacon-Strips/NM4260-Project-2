@@ -16,4 +16,4 @@ if (ghosty_duration >= max_ghostyduration / 4) {
 } else {
 	draw_rectangle_color(x - 10, y - 30, x - 10 + (20 * (ghosty_duration / max_ghostyduration)), y - 25, c_yellow, c_yellow, c_yellow, c_yellow, false);	
 }
-draw_rectangle_color(x - 4, y - 30, x - 5, y - 25, c_red, c_red, c_red, c_red, true);
+draw_rectangle_color(x - 4, y - 30, x - 6, y - 25, c_red, c_red, c_red, c_red, false);

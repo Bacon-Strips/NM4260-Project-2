@@ -78,6 +78,7 @@
     {"id":{"name":"sprite_player_mask","path":"sprites/sprite_player_mask/sprite_player_mask.yy",},"order":0,},
     {"id":{"name":"sound_ghostdiscovered3","path":"sounds/sound_ghostdiscovered3/sound_ghostdiscovered3.yy",},"order":0,},
     {"id":{"name":"sprite_player_front","path":"sprites/sprite_player_front/sprite_player_front.yy",},"order":0,},
+    {"id":{"name":"obj_credit_button","path":"objects/obj_credit_button/obj_credit_button.yy",},"order":0,},
     {"id":{"name":"sound_allmoneycollected","path":"sounds/sound_allmoneycollected/sound_allmoneycollected.yy",},"order":0,},
     {"id":{"name":"sprite_bossghost","path":"sprites/sprite_bossghost/sprite_bossghost.yy",},"order":0,},
     {"id":{"name":"obj_pickup","path":"objects/obj_pickup/obj_pickup.yy",},"order":0,},
@@ -93,6 +94,7 @@
     {"id":{"name":"obj_game_startlevel2","path":"objects/obj_game_startlevel2/obj_game_startlevel2.yy",},"order":0,},
     {"id":{"name":"font_instructions","path":"fonts/font_instructions/font_instructions.yy",},"order":0,},
     {"id":{"name":"level_transition1","path":"rooms/level_transition1/level_transition1.yy",},"order":0,},
+    {"id":{"name":"credits","path":"rooms/credits/credits.yy",},"order":0,},
     {"id":{"name":"how_to_play_pg3","path":"rooms/how_to_play_pg3/how_to_play_pg3.yy",},"order":0,},
     {"id":{"name":"sound_ghostdiscovered5","path":"sounds/sound_ghostdiscovered5/sound_ghostdiscovered5.yy",},"order":0,},
     {"id":{"name":"sprite_player_side20","path":"sprites/sprite_player_side20/sprite_player_side20.yy",},"order":0,},
@@ -187,6 +189,7 @@
     {"roomId":{"name":"level_transition2","path":"rooms/level_transition2/level_transition2.yy",},},
     {"roomId":{"name":"level_transition4","path":"rooms/level_transition4/level_transition4.yy",},},
     {"roomId":{"name":"level_transition3","path":"rooms/level_transition3/level_transition3.yy",},},
+    {"roomId":{"name":"credits","path":"rooms/credits/credits.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
