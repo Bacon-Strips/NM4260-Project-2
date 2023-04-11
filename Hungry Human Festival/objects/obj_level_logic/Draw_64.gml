@@ -30,9 +30,13 @@ for (var i = 0; i < obj_gatekeeppassive.gate_fee; i++) {
 }
 
 draw_rectangle_color(1200, port_height / 60, 1350, 2 * port_height / 60, c_black, c_black, c_black, c_black, false);
-draw_rectangle_color(1200, port_height / 60, 1200 + 150 * (obj_player.ghosty_duration / obj_player.max_ghostyduration), port_height / 30, c_aqua, c_aqua, c_aqua, c_aqua, false);
+if (obj_player.ghosty_duration >= obj_player.max_ghostyduration / 4) {
+	draw_rectangle_color(1200, port_height / 60, 1200 + 150 * (obj_player.ghosty_duration / obj_player.max_ghostyduration), port_height / 30, c_aqua, c_aqua, c_aqua, c_aqua, false);
+} else {
+	draw_rectangle_color(1200, port_height / 60, 1200 + 150 * (obj_player.ghosty_duration / obj_player.max_ghostyduration), port_height / 30, c_yellow, c_yellow, c_yellow, c_yellow, false);
+}
 draw_rectangle_color(1200, port_height / 60, 1350, 2 * port_height / 60, c_black, c_black, c_black, c_black, true);
-
+draw_rectangle_color(1237, port_height / 60, 1240, 2 * port_height / 60, c_red, c_red, c_red, c_red, false);
 
 if (player_lives <= 1) {
 	draw_set_alpha(0.2);

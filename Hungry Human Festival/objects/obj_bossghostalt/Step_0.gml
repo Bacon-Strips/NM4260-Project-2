@@ -20,8 +20,9 @@ if (fireball_prep == fireball_preparetime / 2) {
 	event_user(2);
 }
 
-if (fireball_timer == 0) {
-	fireball_prep = fireball_preparetime;	
+if (fireball_timer <= 0) {
+	fireball_prep = fireball_preparetime;
+	fireball_timer = 20 * room_speed;
 }
 
 move_towards_point(obj_player.x, obj_player.y, move_speed);

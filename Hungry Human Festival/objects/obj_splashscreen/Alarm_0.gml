@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 tickdown = true;
-alarm[1] = 120
+alarm[1] = 1;//120;

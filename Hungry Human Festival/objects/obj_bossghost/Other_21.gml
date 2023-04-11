@@ -4,4 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-move_speed = default_room_speed;
+speed = pause_speed;
+image_speed = 1;

@@ -5,7 +5,7 @@ if (dead) {
 	return;	
 }
 
-if (!ghosty) {
+if (!ghosty && ghosty_duration >= 750) {
 	ghosty = true;
 	become_human = false;
 	sprite_index = sprite_ghostyidle;

@@ -3,7 +3,7 @@
 
 
 event_inherited();
-default_room_speed = 1.2;
+default_room_speed = 1.0;
 move_speed = default_room_speed;
 charge_timer = 0;
 charge_prep = 0;

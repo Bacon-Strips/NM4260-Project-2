@@ -41,6 +41,7 @@
     {"name":"obj_game_startlevel3","order":14,"path":"objects/obj_game_startlevel3/obj_game_startlevel3.yy",},
     {"name":"sound_graverise","order":6,"path":"sounds/sound_graverise/sound_graverise.yy",},
     {"name":"sound_levelclear","order":5,"path":"sounds/sound_levelclear/sound_levelclear.yy",},
+    {"name":"sprite_shiftkey","order":7,"path":"sprites/sprite_shiftkey/sprite_shiftkey.yy",},
     {"name":"ts_mask","order":1,"path":"tilesets/ts_mask/ts_mask.yy",},
     {"name":"sprite_player_temp","order":4,"path":"sprites/sprite_player_temp/sprite_player_temp.yy",},
     {"name":"sprite_bossghostalt","order":8,"path":"sprites/sprite_bossghostalt/sprite_bossghostalt.yy",},

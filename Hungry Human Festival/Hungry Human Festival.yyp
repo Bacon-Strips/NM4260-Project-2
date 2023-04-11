@@ -58,6 +58,7 @@
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"order":0,},
     {"id":{"name":"sound_graverise","path":"sounds/sound_graverise/sound_graverise.yy",},"order":0,},
     {"id":{"name":"sound_levelclear","path":"sounds/sound_levelclear/sound_levelclear.yy",},"order":0,},
+    {"id":{"name":"sprite_shiftkey","path":"sprites/sprite_shiftkey/sprite_shiftkey.yy",},"order":0,},
     {"id":{"name":"ts_mask","path":"tilesets/ts_mask/ts_mask.yy",},"order":0,},
     {"id":{"name":"sprite_player_temp","path":"sprites/sprite_player_temp/sprite_player_temp.yy",},"order":0,},
     {"id":{"name":"sprite_bossghostalt","path":"sprites/sprite_bossghostalt/sprite_bossghostalt.yy",},"order":0,},

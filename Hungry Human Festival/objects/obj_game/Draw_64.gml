@@ -55,15 +55,25 @@ switch (room) {
 		break;
 	case how_to_play_pg2:
 		draw_set_halign(fa_left);
-		draw_sprite_ext(sprite_ghostyidle, -1, room_width / 16, room_height / 4, 2, 2, 0, c_white, 1);
-		draw_text(room_width / 8, room_height / 4, 
-			"Spirit form: Gatekeeper gave you a tailsman for protection.\n"
-			+ "Press shift to enter spirit form, press again to turn back.\n"
-			+ "While as a spirit, you move faster and can phase through walls.\n"
-			+ "You can only turn back if you are not obstructed by any walls.\n\n"
-			+ "Spirit form depletes gauge, which is shown at the top.\n"
-			+ "If you remain as a spirit when the gauge is empty, you will start losing\n" 
-			+ "your lives.");
+		draw_text_transformed(room_width / 16, 3 * room_height / 32,
+			"Spirit form:", 1.5, 1.5, 0);
+		draw_sprite_ext(sprite_player_front, -1, room_width / 8, 9 * room_height / 32, 3, 3, 0, c_white, 1);
+		draw_arrow(3 * room_width / 16, 5 * room_height / 16, 3 * room_width / 8, 5 * room_height / 16, 20);
+		draw_sprite_ext(sprite_shiftkey, -1, 15 * room_width / 64, 7 * room_height / 32, 0.5, 0.5, 0, c_white, 1);
+		draw_sprite_ext(sprite_ghostyidle, -1, room_width / 2, 9 * room_height / 32, 3, 3, 0, c_white, 1);
+		draw_rectangle_color(31 * room_width / 64, 11 * room_height / 64, 33 * room_width / 64, 3 * room_height / 16, c_black, c_black, c_black, c_black, false);
+		draw_rectangle_color(31 * room_width / 64, 11 * room_height / 64, room_width / 2, 3 * room_height / 16, c_aqua, c_aqua, c_aqua, c_aqua, false);
+		draw_rectangle_color(63 * room_width / 128 - 1, 11 * room_height / 64, 63 * room_width / 128 + 1, 3 * room_height / 16, c_red, c_red, c_red, c_red, false);
+		draw_text( 5 * room_width / 8, 9 * room_height / 32, 
+			"You can move faster and pass\n"
+			+ "through walls in spirit form.");
+		draw_text(3 * room_width / 16, 7 * room_height / 16,
+			"Hold shift to remain in spirit form");
+		draw_sprite_ext(sprite_ghostyidle, -1, room_width / 2, 5 * room_height / 8, 3, 3, 0, c_white, 1);
+		draw_rectangle_color(31 * room_width / 64, 33 * room_height / 64, 33 * room_width / 64, 8 * room_height / 16, c_red, c_red, c_red, c_red, false);
+		draw_text( 5 * room_width / 8, 5 * room_height / 8, 
+			"When the gauge is empty, you\n"
+			+ "will start to lose lives");
 		break;
 	case how_to_play_pg3:
 		draw_set_halign(fa_left);
@@ -130,8 +140,11 @@ switch (room) {
 	case level_clear:
 		draw_text(room_width / 2, 300,
 			"Congratulations! You have cleared the game!\n"
-			+ "This is the end of the current iteration, please look forward\n"
-			+ "to the next iteration of this video game project\n");
+			+ "Thanks for playing\n"
+			+ "Developer: Peigeng (Bacon-Strips)\n"
+			+ "Artist: Jolin\n"
+			+ "Designer: Vanessa & Yining\n"
+			+ "QA Testor: Dominic");
 		break;
 	case game_over:
 		var c = c_red;

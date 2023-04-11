@@ -1,13 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if (paused) {
+	return;	
+}
+
 stunned--;
-charge_timer--;
-charge_prep--;
-charging_duration--;
 
 if (stunned >= 0) {
 	return;	
 }
+
+charge_timer--;
+charge_prep--;
+charging_duration--;
 
 image_alpha = 1;
 

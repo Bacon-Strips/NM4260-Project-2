@@ -8,3 +8,4 @@ move_speed = default_room_speed;
 charge_timer = 0;
 charge_prep = 0;
 charging_duration = 0;
+pause_speed = move_speed;

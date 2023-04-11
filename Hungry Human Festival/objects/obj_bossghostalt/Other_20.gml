@@ -4,4 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-move_speed = 0;
+speed = 0;
+image_speed = 0;
