@@ -9,3 +9,5 @@ charge_timer = 0;
 charge_prep = 0;
 charging_duration = 0;
 fireball_timer = 600;
+fireball_prep = 0;
+fireball_preparetime = 120

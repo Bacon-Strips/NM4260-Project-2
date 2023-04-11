@@ -8,6 +8,13 @@ if (invincibility_time <= 0) move_speed = 2;
 var dx = move_speed * (keyboard_check(vk_right) - keyboard_check(vk_left));
 var dy = move_speed * (keyboard_check(vk_down) - keyboard_check(vk_up));
 
+/*
+if ((keyboard_check(vk_right) || keyboard_check(vk_left)) && (keyboard_check(vk_up) || keyboard_check(vk_down))) {
+	dx = (dx/abs(dx)) * sqrt(abs(dx));
+	dy = (dy/abs(dy)) * sqrt(abs(dy));
+}
+*/
+
 invincibility_time--;
 holy_effect--;
 
@@ -81,11 +88,11 @@ if (ghosty) {
 	if (ghosty_buffer > 0) {
 		ghosty_buffer--;
 	} else {
-		ghosty_duration++;
+		ghosty_duration += 1.5;
 	}
 }
 
-ghosty_duration = clamp(ghosty_duration, 0, 3000);
+ghosty_duration = clamp(ghosty_duration, 0, max_ghostyduration);
 
 if (!ghosty) {
 	y += dy;

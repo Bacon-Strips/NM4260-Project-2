@@ -18,3 +18,12 @@ instance_create_layer(x, y, "Instances", obj_fireball, {
 instance_create_layer(x, y, "Instances", obj_fireball, {
 	angle: fire_direction - 30
 });
+/*
+instance_create_layer(x, y, "Instances", obj_fireball, {
+	angle: fire_direction + 50
+});
+
+instance_create_layer(x, y, "Instances", obj_fireball, {
+	angle: fire_direction - 50
+});
+*/

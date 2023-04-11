@@ -10,13 +10,13 @@ switch (room) {
 		break;
 	case how_to_play_pg1:
 		draw_set_font(font_instructions_header);
-		draw_text(room_width / 2, 100, 
+		draw_text(room_width / 2, 50, 
 			"You are a NSF lost in hell. Help him find the\n" 
 			+ "required hell money to pay the gatekeeper to go home!\n");
-		draw_text(room_width / 2, 200,
+		draw_text(room_width / 2, 150,
 			"Movement:");
 			
-		var movement_row_y = 275;
+		var movement_row_y = 225;
 			
 		draw_sprite_ext(sprite_arrowkey, 1, room_width / 5, movement_row_y, 1, 1, 0, c_white, 1);
 		draw_sprite_ext(sprite_arrowkey, 3, 2 * room_width / 5, movement_row_y, 1, 1, 0, c_white, 1);
@@ -27,19 +27,19 @@ switch (room) {
 		draw_sprite_ext(sprite_player_side, 0, 13 * room_width / 20, movement_row_y, 2, 2, 0, c_white, 1);
 		draw_sprite_ext(sprite_player_front, 0, 17 * room_width / 20, movement_row_y, 2, 2, 0, c_white, 1);
 		
-		draw_text(room_width / 2, 350, 
+		draw_text(room_width / 2, 300, 
 			"Items:");
-		draw_sprite_ext(sprite_holywater, -1, room_width / 16, 425, 2, 2, 0, c_white, 1);
+		draw_sprite_ext(sprite_holywater, -1, room_width / 16, 375, 2, 2, 0, c_white, 1);
 		draw_set_halign(fa_left);
 		draw_set_font(font_instructions);
-		draw_text(room_width / 16 + 100, 425,
+		draw_text(room_width / 16 + 100, 375,
 			"Holy water: Briefly stuns all ghosts (Hotkey:                   )");
-		draw_sprite_ext(sprite_spacekey, -1, room_width / 16 + 895, 425, 0.75, 0.75, 0, c_white, 1);
-		draw_sprite_ext(sprite_rosarybeads, -1, room_width / 16, 550, 2, 2, 0, c_white, 1);
-		draw_text(room_width / 16 + 100, 550,
+		draw_sprite_ext(sprite_spacekey, -1, room_width / 16 + 895, 375, 0.75, 0.75, 0, c_white, 1);
+		draw_sprite_ext(sprite_rosarybeads, -1, room_width / 16, 500, 2, 2, 0, c_white, 1);
+		draw_text(room_width / 16 + 100, 500,
 			"Rosary beads: NSF's life points. 1 is lost each time he gets caught by a ghost.");
-		draw_sprite_ext(sprite_ghostmoney, -1, room_width / 16, 675, 2, 2, 0, c_white, 1);
-		draw_text(room_width / 16 + 100, 675,
+		draw_sprite_ext(sprite_ghostmoney, -1, room_width / 16, 625, 2, 2, 0, c_white, 1);
+		draw_text(room_width / 16 + 100, 625,
 			"Hell money: Gather these and hand it to the gatekeeper to leave");
 		draw_sprite_ext(sprite_gatekeeper, 0, 14 * room_width / 16, 750, 2, 2, 0, c_white, 1);
 		draw_text(11 * room_width / 16, 750, 
@@ -55,18 +55,15 @@ switch (room) {
 		break;
 	case how_to_play_pg2:
 		draw_set_halign(fa_left);
-		draw_text(room_width / 8, 600,
-			"Holy water\n"
-			+ "This will briefly stun all ghosts in hell\n\n"
-			+ "Rosary beads\n"
-			+ "These are your protection in hell\n"
-			+ "Once is consumed whenever a ghost catch you\n"
-			+ "It is game over when you run out of these\n\n"
-			+ "Hell money\n"
-			+ "These are scattered across the maze. Essential for the gatekeeping fees\n\n");
-		draw_sprite_ext(sprite_holywater, -1, room_width / 16, 275, 3, 3, 0, c_white, 1);
-		draw_sprite_ext(sprite_rosarybeads, -1, room_width / 16, 600, 3, 3, 0, c_white, 1);
-		draw_sprite_ext(sprite_ghostmoney, -1, room_width / 16, 850, 3, 3, 0, c_white, 1);
+		draw_sprite_ext(sprite_ghostyidle, -1, room_width / 16, room_height / 4, 2, 2, 0, c_white, 1);
+		draw_text(room_width / 8, room_height / 4, 
+			"Spirit form: Gatekeeper gave you a tailsman for protection.\n"
+			+ "Press shift to enter spirit form, press again to turn back.\n"
+			+ "While as a spirit, you move faster and can phase through walls.\n"
+			+ "You can only turn back if you are not obstructed by any walls.\n\n"
+			+ "Spirit form depletes gauge, which is shown at the top.\n"
+			+ "If you remain as a spirit when the gauge is empty, you will start losing\n" 
+			+ "your lives.");
 		break;
 	case how_to_play_pg3:
 		draw_set_halign(fa_left);
@@ -78,7 +75,7 @@ switch (room) {
 		break;
 	case level_transition1:
 		var c = c_red;
-		draw_text_transformed_colour(room_width / 2, 100, "Level " + string(to_level + 1), 3, 3, 0, c, c, c, c, 1);
+		draw_text_transformed_colour(room_width / 2, 100, "Level 1", 3, 3, 0, c, c, c, c, 1);
 		draw_sprite_ext(sprite_ghost1, 0, room_width / 16, 3 * room_height / 8, 3, 3, 0, c_white, 1);
 		draw_set_halign(fa_left);
 		draw_text(2 * room_width / 16, 3 * room_height / 8,
@@ -90,35 +87,29 @@ switch (room) {
 		break;
 	case level_transition2:
 		var c = c_red;
-		draw_text_transformed_colour(room_width / 2, 100, "Level " + string(to_level + 1), 3, 3, 0, c, c, c, c, 1);
+		draw_text_transformed_colour(room_width / 2, 100, "Level 2", 3, 3, 0, c, c, c, c, 1);
 		draw_set_halign(fa_left);
-		draw_sprite_ext(sprite_ghost2, 0, room_width / 16, 3 * room_height / 8, 3, 3, 0, c_white, 1);
+		draw_sprite_ext(sprite_ghost2, 0, room_width / 16, 3 * room_height / 8, 2, 2, 0, c_white, 1);
 		draw_text(2 * room_width / 16, 3 * room_height / 8,
-			"Medium ghost. Same behavior as basic ghost, but faster than you.\n"
-			+ "There is a couple of seconds before it start chasing if it spots you.");
-		draw_sprite_ext(sprite_ghost3, 0, room_width / 16, 6 * room_height / 8, 3, 3, 0, c_white, 1);
-		draw_text(2 * room_width / 16, 6 * room_height / 8,
+			"Medium ghost. Same behavior as basic ghost, but faster than you.\n");
+		draw_sprite_ext(sprite_ghost3, 0, room_width / 16, 5 * room_height / 8, 2, 2, 0, c_white, 1);
+		draw_text(2 * room_width / 16, 5 * room_height / 8,
 			"Big ghost. A lot slower than you, but she's always chasing. Silent too.");
 		draw_set_halign(fa_center);
 		break;
 	case level_transition3:
 		var c = c_red;
-		draw_text_transformed_colour(room_width / 2, 100, "Level " + string(to_level + 1), 3, 3, 0, c, c, c, c, 1);
+		draw_text_transformed_colour(room_width / 2, 100, "Level 3", 3, 3, 0, c, c, c, c, 1);
 		draw_set_halign(fa_left);
 		draw_sprite_ext(sprite_gravestone, 0, room_width / 16, 3 * room_height / 8, 3, 3, 0, c_white, 1);
 		draw_text(2 * room_width / 16, 3 * room_height / 8, 
 			"Gravestone. Harmless, but blocks your path when you get close.\n"
 			+ "Disappears after a while.");
-		draw_sprite_ext(sprite_ghostyidle, 0, room_width / 16, 5 * room_height / 8, 2, 2, 0, c_white, 1);
-		draw_text(2 * room_width / 16, 5 * room_height / 8,
-			"The gatekeeper passed you a tailsman. Press shift to turn into a spirit\n"
-			+ "As a spirit, you can phase through walls while draining your meter\n"
-			+ "You will take damage when the meter is empty while you're a spirit");
 		draw_set_halign(fa_center);
 		break;
 	case level_transition4:
 		var c = c_red;
-		draw_text_transformed_colour(room_width / 2, 100, "Level " + string(to_level + 1), 3, 3, 0, c, c, c, c, 1);
+		draw_text_transformed_colour(room_width / 2, 100, "Level 4", 3, 3, 0, c, c, c, c, 1);
 		draw_set_halign(fa_left);
 		draw_sprite_ext(sprite_bossghost, 0, room_width / 16, 3 * room_height / 8, 2, 2, 0, c_white, 1);
 		draw_text(2 * room_width / 16, 3 * room_height / 8,
@@ -129,7 +120,7 @@ switch (room) {
 		draw_text(2 * room_width / 16, 5 * room_height / 8,
 			"Boss ghost's twin. Constantly chases you while passing through walls.\n" 
 			+ "A lot slower than you but occasionally casts fireballs\n"
-			+ "Stay away unless you have a face full of fireballs");
+			+ "Stay away unless you want a face full of fireballs");
 		draw_set_halign(fa_center);
 		break;
 	case level_select:

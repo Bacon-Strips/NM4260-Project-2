@@ -30,7 +30,7 @@ for (var i = 0; i < obj_gatekeeppassive.gate_fee; i++) {
 }
 
 draw_rectangle_color(1200, port_height / 60, 1350, 2 * port_height / 60, c_black, c_black, c_black, c_black, false);
-draw_rectangle_color(1200, port_height / 60, 1200 + 150 * (obj_player.ghosty_duration / 3000), port_height / 30, c_aqua, c_aqua, c_aqua, c_aqua, false);
+draw_rectangle_color(1200, port_height / 60, 1200 + 150 * (obj_player.ghosty_duration / obj_player.max_ghostyduration), port_height / 30, c_aqua, c_aqua, c_aqua, c_aqua, false);
 draw_rectangle_color(1200, port_height / 60, 1350, 2 * port_height / 60, c_black, c_black, c_black, c_black, true);
 
 

@@ -1,5 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if (dead) {
+	return;	
+}
+
 var prev_ghosty = ghosty;
 ghosty ^= 1;
 if (ghosty) {

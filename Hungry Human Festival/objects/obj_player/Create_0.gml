@@ -14,7 +14,8 @@ fix_directiony = 0;
 dead = false;
 paused = false;
 ghosty = false;
-ghosty_duration = 0;
+max_ghostyduration = 3000;
+ghosty_duration = max_ghostyduration;
 ghosty_buffer = 0;
 
 sprite_bbox_left = sprite_get_bbox_left(sprite_index) - sprite_get_xoffset(sprite_index);

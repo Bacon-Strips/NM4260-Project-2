@@ -6,10 +6,6 @@ if (invincibility_time <= 0 && !dead) {
 	audio_play_sound(sound_hit, 1, false);
 	obj_player.alarm[0] = 1;
 	obj_level_logic.alarm[0] = 1;
-	if (ghosty) {
-		invincibility_time = room_speed * 3;	
-	} else {
-		invincibility_time = room_speed * 5;
-	}
-	move_speed *= 1.5;
+	invincibility_time = room_speed * 5;
+	move_speed = 1.5 * default_speed;
 }

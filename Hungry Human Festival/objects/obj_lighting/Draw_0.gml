@@ -32,6 +32,15 @@ if (!surface_exists(surf)) {
 			}
 		}
 	}
+	with (obj_bossghostalt) {
+		gpu_set_blendmode(bm_normal);
+		if (fireball_prep > 0) {
+			draw_sprite_ext(sprite_lighting, 0, x, y
+			, ((fireball_preparetime / 2) - abs(fireball_prep - fireball_preparetime / 2)) / fireball_preparetime
+			, ((fireball_preparetime / 2) - abs(fireball_prep - fireball_preparetime / 2)) / fireball_preparetime
+			, 0, c_white, 0.5);
+		}
+	}
 	with (obj_fireball) {
 		gpu_set_blendmode(bm_normal);
 		draw_sprite_ext(sprite_lighting, 0, x, y, 0.3, 0.3, 0, c_white, 0.5);

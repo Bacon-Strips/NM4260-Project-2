@@ -19,8 +19,8 @@ if (charging_duration > 0) {
 
 if (charge_prep == 0) {
 	move_speed = default_room_speed
-	move_towards_point(obj_player.x, obj_player.y, move_speed * 4);
-	charging_duration = 1.5 * room_speed;
+	move_towards_point(obj_player.x, obj_player.y, move_speed * 3);
+	charging_duration = 2 * room_speed;
 	return;
 } else if (charge_prep > 0) {
 	effect_create_above(ef_firework, x, y, 1, c_orange)
